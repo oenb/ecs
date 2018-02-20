@@ -14,7 +14,7 @@ Enthält die Konfiguration
 | ---- | ----------- |
 | mandt | Mandant | 
 | bucket | ECS: Bucket Name | 
-| destination | logische Destination (Wird bei Funktionsaufruf angegeben) | 
+| destination | logische Destination | 
 | region | ECS: Region | 
 | server_encrypt | ECS: Server Encryption | 
 | client_encrypt | ECS: Client Encryption | 
