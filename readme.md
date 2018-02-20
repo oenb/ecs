@@ -1,4 +1,4 @@
-# Voraussetzungen:
+## Voraussetzungen:
 Eine RFC-Destination (Verbindungstyp „G“)
 Konfiguration in Tabelle ZECS_CONFIG (SM30)
 
