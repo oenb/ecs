@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>ECS: Core Services Nachrichten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler beim Lesen der Konfiguration</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler bei der Datei Komprimierung (ZIP)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Fehler bei Hash Wert berechnen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler bei Verbindungsaufbau (CREATE_BY_DESTINATION)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler beim Senden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehler beim Empfangen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler bei Codepage Konvertierung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>HTTP Fehlerstatus: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Fehler bei GET Destination &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZECS_CORE_SERVICES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Kein Bucket ausgewählt.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
