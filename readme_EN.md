@@ -9,40 +9,40 @@ Contains all development objects.
 ##### Table ZECS_CONFIG:
 Contains configuration.
 
-|Field|Short Description|
-|-|-|
-|mandt|Client|
-|bucket|ECS: Bucket Name|
-|destination|Connection to external server|
-|region|ECS: Region|
-|server_encrypt|ECS: Server Encryption|
-|client_encrypt|ECS: Client Encryption|
-|zip|ECS: ZIP|
-|access_key|ECS: Access Key|
-|secret_key|ECS: Secret Key|
-|default_bucket|Default Bucket|
+| Field | Short Description | 
+| ----- | ----------------- | 
+| mandt | Client | 
+| bucket | ECS: Bucket Name | 
+| destination | Connection to external server | 
+| region | ECS: Region | 
+| server_encrypt | ECS: Server Encryption | 
+| client_encrypt | ECS: Client Encryption | 
+| zip | ECS: ZIP | 
+| access_key | ECS: Access Key | 
+| secret_key | ECS: Secret Key | 
+| default_bucket | Default Bucket | 
 
-|Data Elements:|
-|-|
-|ZECS_ACCESS_KEY|
-|ZECS_BUCKET|
-|ZECS_CLIENT_ENCRYPT|
-|ZECS_DEFAULT_BUCKET|
-|ZECS_REGION|
-|ZECS_SECRET_KEY|
-|ZECS_SERVER_ENCRYPT|
-|ZECS_ZIP|
+| Data Elements: | 
+| -------------- | 
+| ZECS_ACCESS_KEY | 
+| ZECS_BUCKET | 
+| ZECS_CLIENT_ENCRYPT | 
+| ZECS_DEFAULT_BUCKET | 
+| ZECS_REGION | 
+| ZECS_SECRET_KEY | 
+| ZECS_SERVER_ENCRYPT | 
+| ZECS_ZIP | 
 
-|Domains:|
-|-|
-|ZECS_ACCESS_KEY|
-|ZECS_BUCKET|
-|ZECS_REGION|
-|ZECS_SECRET_KEY|
+| Domains: | 
+| -------- | 
+| ZECS_ACCESS_KEY | 
+| ZECS_BUCKET | 
+| ZECS_REGION | 
+| ZECS_SECRET_KEY | 
 
-|Table Type:|
-|-|
-|ZECS_T_SSFBIN|
+| Table Type: | 
+| ----------- | 
+| ZECS_T_SSFBIN | 
 
 ##### Interface ZIF_ECS_CORE_SERVICES:
 Definition of constants and core methods.
@@ -79,4 +79,4 @@ Installation via abapGit
 License
 ----
 
-MIT
+The Unlicense

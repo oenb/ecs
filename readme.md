@@ -1,3 +1,4 @@
+#### English version see readme_EN.md
 ## Voraussetzungen:
 Eine RFC-Destination (Verbindungstyp „G“)
 Konfiguration in Tabelle ZECS_CONFIG (SM30)
@@ -9,40 +10,40 @@ Enthält alle Entwicklungsobjekte.
 ##### Tabelle ZECS_CONFIG:
 Enthält die Konfiguration
 
-|Feld|Bezeichnung|
-|-|-|
-|mandt|Mandant|
-|bucket|ECS: Bucket Name|
-|destination|logische Destination (Wird bei Funktionsaufruf angegeben)|
-|region|ECS: Region|
-|server_encrypt|ECS: Server Encryption|
-|client_encrypt|ECS: Client Encryption|
-|zip|ECS: ZIP|
-|access_key|ECS: Access Key|
-|secret_key|ECS: Secret Key|
-|default_bucket|Default Bucket|
+| Feld | Bezeichnung |
+| ---- | ----------- |
+| mandt | Mandant | 
+| bucket | ECS: Bucket Name | 
+| destination | logische Destination (Wird bei Funktionsaufruf angegeben) | 
+| region | ECS: Region | 
+| server_encrypt | ECS: Server Encryption | 
+| client_encrypt | ECS: Client Encryption | 
+| zip | ECS: ZIP | 
+| access_key | ECS: Access Key | 
+| secret_key | ECS: Secret Key | 
+| default_bucket | Default Bucket | 
 
-|Datenelemente:|
-|-|
-|ZECS_ACCESS_KEY|
-|ZECS_BUCKET|
-|ZECS_CLIENT_ENCRYPT|
-|ZECS_DEFAULT_BUCKET|
-|ZECS_REGION|
-|ZECS_SECRET_KEY|
-|ZECS_SERVER_ENCRYPT|
-|ZECS_ZIP|
+| Datenelemente: | 
+| -------------- | 
+| ZECS_ACCESS_KEY | 
+| ZECS_BUCKET | 
+| ZECS_CLIENT_ENCRYPT | 
+| ZECS_DEFAULT_BUCKET | 
+| ZECS_REGION | 
+| ZECS_SECRET_KEY | 
+| ZECS_SERVER_ENCRYPT | 
+| ZECS_ZIP | 
 
-|Domänen:|
-|-|
-|ZECS_ACCESS_KEY|
-|ZECS_BUCKET|
-|ZECS_REGION|
-|ZECS_SECRET_KEY|
+| Domänen: | 
+| -------- | 
+| ZECS_ACCESS_KEY | 
+| ZECS_BUCKET | 
+| ZECS_REGION | 
+| ZECS_SECRET_KEY | 
 
-|Tabellentyp:|
-|-|
-|ZECS_T_SSFBIN|
+| Tabellentyp: | 
+| ------------ | 
+| ZECS_T_SSFBIN | 
 
 ##### Interface ZIF_ECS_CORE_SERVICES:
 Hier werden Konstanten und die Core Methoden definiert.
@@ -79,4 +80,4 @@ Installation via abapGit
 License
 ----
 
-MIT
+The Unlicense
