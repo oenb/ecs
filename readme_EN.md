@@ -1,3 +1,12 @@
+# Description
+This simple S3 client library enables SAP customers to natively communicate with any inhouse and external S3 compatible object storage within ABAP Objects.
+
+Currently the funktionality includes:
+	- post document to bucket
+    - get document from bucket
+    - get object list from bucket
+
+
 ## Preconditions:
 A RFC destination (connectiontype „G“)
 Configuration in table ZECS_CONFIG (SM30)
@@ -48,7 +57,7 @@ Contains configuration.
 Definition of constants and core methods.
 
 ##### Class ZCL_ECS_CORE_SERVICES:
-Provides with method FACTORY an object to use the methods PUT_OBJECT, GET_OBJECT and LIST_BUCKET_OBJECTS.
+Provides the method FACTORY, an object to use the methods PUT_OBJECT, GET_OBJECT and LIST_BUCKET_OBJECTS.
 
 ##### Exception Class ZCX_ECS_CORE_SERVICES:
 Error handling for core services.
@@ -65,7 +74,7 @@ Calls program ZECS_EXPLORER.
 ### Additional Functions in configuration table:
 Option ZIP: Compress files before sending to server.
 Option SERVER_ENCRYPT: Tell the object storage system zu encrypt the file.
-Option CLIENT_ENCRYPT: Encryption on the client (SAP). !!! This option isn't ready yet. !!!
+Option CLIENT_ENCRYPT: Encryption on the client (SAP). !!! This option is currently not provided !!!
 
 ### Installation
 
