@@ -1,7 +1,7 @@
 # Beschreibung
-Ein möglichst einfach gehaltener S3 Client zur Kommunikation mit S3 kompatiblen Object Storages mittels ABAPA Objects. Der Client kann sowohl mit lokalen als auch cloudbasierten S3 Object Storages verwendet werden.
+Ein möglichst einfach gehaltener S3 Client zur Kommunikation mit S3 kompatiblen Object Storages mittels ABAP Objects. Der Client kann sowohl mit lokalen als auch cloudbasierten S3 Object Storages verwendet werden.
 Derzeitige Funktionen:
-* **post document** to bucket to bucket 
+* **post document** to bucket 
 * **get document** from bucket 
 * **get object list** from bucket
 
