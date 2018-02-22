@@ -2,9 +2,9 @@
 This simple S3 client library enables SAP customers to natively communicate with any inhouse and external S3 compatible object storage within ABAP Objects.
 
 Currently the funktionality includes:
-	- post document to bucket
-    - get document from bucket
-    - get object list from bucket
+* **post document** to bucket
+* **get document** from bucket
+* **get object list** from bucket
 
 
 ## Preconditions:
@@ -74,7 +74,7 @@ Calls program ZECS_EXPLORER.
 ### Additional Functions in configuration table:
 Option ZIP: Compress files before sending to server.
 Option SERVER_ENCRYPT: Tell the object storage system zu encrypt the file.
-Option CLIENT_ENCRYPT: Encryption on the client (SAP). !!! This option is currently not provided !!!
+Option CLIENT_ENCRYPT: Encryption on the client (SAP). **!!! This option is currently not provided !!!**
 
 ### Installation
 
