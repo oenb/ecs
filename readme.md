@@ -1,3 +1,11 @@
+# Beschreibung
+Ein möglichst einfach gehaltener S3 Client zur Kommunikation mit S3 kompatiblen Object Storages mittels ABAPA Objects. Der Client kann sowohl mit lokalen als auch cloudbasierten S3 Object Storages verwendet werden.
+Derzeitige Funktionen:
+* **post document** to bucket to bucket 
+* **get document** from bucket 
+* **get object list** from bucket
+
+
 #### English version see readme_EN.md
 ## Voraussetzungen:
 Eine RFC-Destination (Verbindungstyp „G“)
@@ -66,7 +74,7 @@ Ruft das Programm ZECS_EXPLORER auf.
 ### Zusätzliche Funktionen in der Konfiguration:
 Option ZIP: Damit können Files komprimiert an den Object Storage übergeben werden.
 Option SERVER_ENCRYPT: Hiermit wird dem Object Storage mitgeteilt, dass er die Files verschlüsseln soll.
-Option CLIENT_ENCRYPT: Damit kann die Verschlüsselung des zu speichernden Objekts bereits am Client (SAP) durchgeführt werden. !!! Diese Option ist noch nicht fertig. !!!
+Option CLIENT_ENCRYPT: Damit kann die Verschlüsselung des zu speichernden Objekts bereits am Client (SAP) durchgeführt werden. **!!! Diese Option ist noch nicht fertig. !!!**
 
 ### Installation
 
